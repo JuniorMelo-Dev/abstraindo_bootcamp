@@ -16,6 +16,9 @@ public class Main {
         curso2.setDescricao("Descrição do Curso de JavaScript");
         curso2.setCargaHoraria(40);
 
+//      Conteudo conteudo = new Conteudo(); //erro por ser classe abstract
+//      Conteudo conteudo = new Curso(); //posso criar Curso, pois é filha de Conteudo()
+
         Mentoria mentoria1 = new Mentoria();
         mentoria1.setTitulo("Curso Java");
         mentoria1.setDescricao("Descrevendo Mentoria do Curso de Java");
